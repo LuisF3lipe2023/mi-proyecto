@@ -270,10 +270,13 @@ h3 {
 
     width: min(60rem, 100%);
     margin: 0 auto;
-    padding: 2rem;
+    padding: 2rem 10rem;
     border-radius: 1rem;
 
 }
+
+
+
 
 .formulario fieldset {
     border: none;
@@ -336,6 +339,16 @@ h3 {
     padding: 1.5rem;
 
 }
+
+@media (max-width: 400px) {
+
+
+    .px400 {
+        font-size: 1.3rem;
+    }
+}
+
+
 
 
 /*FOOTER */
